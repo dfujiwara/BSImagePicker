@@ -265,6 +265,15 @@ extension BSImagePickerViewController: BSImagePickerSettings {
             settings.takePhotoIcon = newValue
         }
     }
+
+    @objc public var supportVideos: Bool {
+        get {
+            return settings.supportVideos
+        }
+        set {
+            settings.supportVideos = newValue
+        }
+    }
 }
 
 // MARK: Album button
